@@ -34,12 +34,12 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
-import SimpleMap from './components/googlemaps';
+import GoogleMap from './components/googlemaps';
 
 
 const App: React.FC = () => (
   <IonApp>
-    <SimpleMap />
+    <GoogleMap placeName="Kennedy Space Center Historic Launch Complex 39A" />
   </IonApp>
 );
 
