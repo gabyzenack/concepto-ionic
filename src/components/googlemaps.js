@@ -25,10 +25,10 @@ const GoogleMap = ({ placeName }) => {
 
     // Define the LatLng coordinates for the polygon's path.
     const triangleCoords = [
-      { lat: 25.774, lng: -80.19 },
-      { lat: 18.466, lng: -66.118 },
-      { lat: 32.321, lng: -64.757 },
-      { lat: 25.774, lng: -80.19 },
+      { lat: 15.774, lng: -80.19 },
+      { lat: 8.466, lng: -66.118 },
+      { lat: 22.321, lng: -64.757 },
+      { lat: 15.774, lng: -80.19 },
     ];
     // Construct the polygon.
     const bermudaTriangle = new window.google.maps.Polygon({
