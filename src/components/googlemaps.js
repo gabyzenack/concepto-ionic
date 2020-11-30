@@ -15,7 +15,7 @@ const GoogleMap = ({ placeName }) => {
 
   const createGoogleMap = (coordinates) => {
     googleMap = new window.google.maps.Map(googleMapRef.current, {
-      zoom: 16,
+      zoom: 5,
       center: {
         lat: coordinates.lat(),
         lng: coordinates.lng(),
